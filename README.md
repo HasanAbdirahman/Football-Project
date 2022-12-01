@@ -23,13 +23,14 @@ This is a website that you can create football players that you like and give ou
 ![Review Page](https://imgur.com/GFytQqd)
 
 ##TECHNOLOGIES USED
--HTML
--CSS 
--JAVASCRIPT
--BOOTSTRAP
--MONGO DB
--EXPRESS
--NODE
+
+- HTML
+- CSS 
+- JAVASCRIPT
+- BOOTSTRAP
+- MONGO DB
+- EXPRESS
+- NODE
 
 Click [here](https://football-project.up.railway.app/) to check the website:
 
