@@ -16,7 +16,7 @@ This is a website that you can create football players that you like and give ou
 
 ## PLAYER CREATION PAGE
 
- ![Creation Page](https://prnt.sc/sVSa1WMcXxIM))
+ ![Creation Page](https://prnt.sc/sVSa1WMcXxIM)
 
 ## Review Page
 
