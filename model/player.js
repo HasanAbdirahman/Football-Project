@@ -8,7 +8,7 @@ const reviewSchema = new Schema({
   image: {
     type: String,
     default:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYR2bCjGlp2FUnFWW4k_5H5DdKUK0H4OdH82ogj4ngj75z6UqeqpQOxHjFJyaLeCOX-n4&usqp=CAU",
+      "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
   },
 });
 

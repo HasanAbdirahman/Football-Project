@@ -4,8 +4,12 @@ var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 var methodOverride = require("method-override");
+var session = require("express-session");
+var passport = require("passport");
 
 require("./config/database");
+require("dotenv").config();
+require("./config/passport");
 
 var indexRouter = require("./routes/index");
 var playersRouter = require("./routes/players");
@@ -23,6 +27,15 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 app.use(methodOverride("_method"));
+app.use(
+  session({
+    secret: "SEIROCKS",
+    resave: false,
+    saveUnitialized: true,
+  })
+);
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.use("/", indexRouter);
 app.use("/players", playersRouter);
