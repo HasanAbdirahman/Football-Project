@@ -2,7 +2,7 @@
 
 This is a website that you can create football players that you like and give out descriptions about them and people can see it and give out reviews.
 
-##SCREENSHOTS
+## SCREENSHOTS
 
 ## Index Page
 
