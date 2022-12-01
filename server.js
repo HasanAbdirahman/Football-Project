@@ -7,8 +7,8 @@ var methodOverride = require("method-override");
 var session = require("express-session");
 var passport = require("passport");
 
-require("./config/database");
 require("dotenv").config();
+require("./config/database");
 require("./config/passport");
 
 var indexRouter = require("./routes/index");
@@ -31,7 +31,7 @@ app.use(
   session({
     secret: "SEIROCKS",
     resave: false,
-    saveUnitialized: true,
+    saveUninitialized: true,
   })
 );
 app.use(passport.initialize());

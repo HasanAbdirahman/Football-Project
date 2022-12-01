@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 // 127.0.01 ip address is the same as localhost
 mongoose.connect(process.env.DATABASE_URL, {
   useNewUrlParser: true,
-  // useUnifiedTopology: true,
+  useUnifiedTopology: true,
   useCreateIndex: true,
 });
 
