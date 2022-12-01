@@ -6,21 +6,21 @@ This is a website that you can create football players that you like and give ou
 
 ## Index Page
 
-![Index Page](https://imgur.com/a/pA41XhG)
+![Index Page](https://prnt.sc/EXunOu1oXs9j)
 
 
 ## VIEWING ALL PLAYERS PAGE
 
- ![All Players Page](https://imgur.com/E2IHKa8)
+ ![All Players Page](https://prnt.sc/3nqKpbXDGgqc)
 
 
 ## PLAYER CREATION PAGE
 
- ![Creation Page](https://imgur.com/FxkYntq)
+ ![Creation Page](https://prnt.sc/sVSa1WMcXxIM))
 
 ## Review Page
 
-  ![Review Page](https://imgur.com/GFytQqd)
+  ![Review Page](https://prnt.sc/Sg36YZKE2HFL)
 
 ## TECHNOLOGIES USED
 
