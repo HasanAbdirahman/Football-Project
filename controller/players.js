@@ -2,7 +2,9 @@ const Player = require("../model/player");
 
 function index(req, res, next) {
   Player.find({}, function (err, players) {
-    res.render("players/index", { players });
+    res.render("players/index", {
+      players,
+    });
   });
 }
 
