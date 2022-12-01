@@ -27,7 +27,7 @@ This is a website that you can create football players that you like and give ou
 -EXPRESS
 -NODE
 
-Click [https://football-project.up.railway.app/](here) to check the website:
+Click [here](https://football-project.up.railway.app/) to check the website:
 
 ##NEXT STEP
 1.Add some functionality like making sure that the person created that player can delete and edit the player they created same applies to reviews.
