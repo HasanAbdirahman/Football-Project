@@ -11,18 +11,18 @@ This is a website that you can create football players that you like and give ou
 
 ## VIEWING ALL PLAYERS PAGE
 
-![All Players Page](https://imgur.com/E2IHKa8)
+ ![All Players Page](https://imgur.com/E2IHKa8)
 
 
 ## PLAYER CREATION PAGE
 
-![Creation Page](https://imgur.com/FxkYntq)
+ ![Creation Page](https://imgur.com/FxkYntq)
 
 ## Review Page
 
-![Review Page](https://imgur.com/GFytQqd)
+  ![Review Page](https://imgur.com/GFytQqd)
 
-##TECHNOLOGIES USED
+## TECHNOLOGIES USED
 
 - HTML
 - CSS 
@@ -34,6 +34,6 @@ This is a website that you can create football players that you like and give ou
 
 Click [here](https://football-project.up.railway.app/) to check the website:
 
-##NEXT STEP
+## NEXT STEP
 
 1.Add some functionality like making sure that the person created that player can delete and edit the player they created same applies to reviews.
