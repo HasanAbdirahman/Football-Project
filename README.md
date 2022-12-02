@@ -29,7 +29,7 @@ This is a website that you can create athletes that you like and give them descr
 - BOOTSTRAP
 - MONGO DB
 - EXPRESS
-- NODE
+- PASSPORT AUTHENTICATION
 
 Click [here](https://football-project.up.railway.app/) to check the website:
 
