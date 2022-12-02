@@ -1,27 +1,26 @@
-# **Football-Project**
+# **Athlete-Project**
 
-This is a website that you can create football players that you like and give out descriptions about them and people can see it and give out reviews.
+This is a website that you can create athletes that you like and give them descriptions and people can see it and give out reviews.
 
 ## SCREENSHOTS
 
 ## Index Page
-
-![Index Page](https://prnt.sc/EXunOu1oXs9j)
+ 
+![Index Page](https://imgur.com/B1lwnC8.jpg)
 
 
 ## VIEWING ALL PLAYERS PAGE
 
- ![All Players Page](https://prnt.sc/3nqKpbXDGgqc)
-
+![All Players Page](https://imgur.com/HBxp6pC.jpg)
 
 ## PLAYER CREATION PAGE
 
- ![Creation Page](https://prnt.sc/sVSa1WMcXxIM)
+ ![Creation Page](https://imgur.com/xvgYdbK.jpg)
 
 ## Review Page
 
-  ![Review Page](https://prnt.sc/Sg36YZKE2HFL)
-
+![Review Page](https://imgur.com/xdMWkRp.jpg)
+  
 ## TECHNOLOGIES USED
 
 - HTML
