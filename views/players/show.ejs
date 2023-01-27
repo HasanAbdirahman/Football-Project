@@ -27,7 +27,7 @@
       >
         <button type="submit" class="btn btn-primary btn-lg">Delete</button>
       </form>
-      <a href="/.netlify/functions/api/players/<%=player.id %>/edit" class="btn btn-primary btn-lg"
+      <a href="/api/players/<%=player.id %>/edit" class="btn btn-primary btn-lg"
         >Edit</a
       >
     </div>
@@ -137,7 +137,7 @@
                 <button class="btn btn-outline-dark">Delete</button>
               </form>
               <form style="margin-left: 10px; margin-top: 14px" action="">
-                <a href="/.netlify/functions/api/players/<%=player.id%>/reviews/<%= review.id %>  " class="btn btn-outline-dark">Edit</a>
+                <a href="/api/players/<%=player.id%>/reviews/<%= review.id %>  " class="btn btn-outline-dark">Edit</a>
               </form>
             </div>
           </div>
