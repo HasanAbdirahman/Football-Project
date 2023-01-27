@@ -1,4 +1,4 @@
-# **Athlete-Project**
+# **Football-Project**
 
 This is a website that you can create athletes that you like and give them descriptions and people can see it and give out reviews.
 
@@ -29,7 +29,7 @@ This is a website that you can create athletes that you like and give them descr
 - BOOTSTRAP
 - MONGO DB
 - EXPRESS
-- NODE
+- PASSPORT AUTHENTICATION
 
 Click [here](https://football-project.up.railway.app/) to check the website:
 
