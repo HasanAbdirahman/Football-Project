@@ -4,7 +4,7 @@ var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 var methodOverride = require("method-override");
-var session = require("express-session");
+var session = require("cookie-session");
 var passport = require("passport");
 
 var app = express();
@@ -28,7 +28,11 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(methodOverride("_method"));
 app.use(
   session({
-    secret: "SEIROCKS",
+    cookie: {
+      secure: true,
+      maxAge: 60000,
+    },
+    secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: true,
   })
