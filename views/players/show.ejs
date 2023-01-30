@@ -27,7 +27,7 @@
       >
         <button type="submit" class="btn btn-primary btn-lg">Delete</button>
       </form>
-      <a href="/api/players/<%=player.id %>/edit" class="btn btn-primary btn-lg"
+      <a href="/players/<%=player.id %>/edit" class="btn btn-primary btn-lg"
         >Edit</a
       >
     </div>
@@ -131,13 +131,13 @@
             <div class="flx">
               <form
                 style="margin-top: 14px"
-                action="/players/<%=player.id %>/reviews/<%=review.id %>?_method=DELETE"
+                action="/reviews/players/<%=player.id %>/reviews/<%=review.id %>?_method=DELETE"
                 method="POST"
               >
                 <button class="btn btn-outline-dark">Delete</button>
               </form>
               <form style="margin-left: 10px; margin-top: 14px" action="">
-                <a href="/api/players/<%=player.id%>/reviews/<%= review.id %>  " class="btn btn-outline-dark">Edit</a>
+                <a href="/reviews/players/<%=player.id%>/reviews/<%= review.id %>" class="btn btn-outline-dark">Edit</a>
               </form>
             </div>
           </div>

@@ -23,21 +23,21 @@
             href="#"
             >About Us</a
           >
-          <a style="margin-left: 60px" class="nav-link" href="/api/players"
+          <a style="margin-left: 60px" class="nav-link" href="/players"
             >All Players
           </a>
-          <a style="margin-left: 60px" class="nav-link" href="/api/players/new"
+          <a style="margin-left: 60px" class="nav-link" href="/players/new"
             >Create new Player</a
           >
           <!-- logins -->
           <div>
        <ul >
         <% if(user){%>
-          <li> <a style="margin-right: 60px" href="/api/logout" class="btn btn-light">LogOut</a>
+          <li> <a style="margin-right: 60px" href="/logout" class="btn btn-light">LogOut</a>
           </li>
       
       <%  }else{%>
-        <li> <a style="margin-right: 60px" href="/api/auth/google" class="btn btn-light">Sign in With Google</a>
+        <li> <a style="margin-right: 60px" href="/auth/google" class="btn btn-light">Sign in With Google</a>
         </li>
      <% } %> 
       </ul>
