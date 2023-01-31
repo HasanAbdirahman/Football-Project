@@ -3,32 +3,32 @@
 <form action="/players" method="POST">
 <div class="mb-3">
     <label for="name" class="form-label">Player name:</label>
-    <input autocomplete = "off" type="text" class="form-control" id="name" name="name" placeholder="player name">
+    <input autocomplete = "off" type="text" class="form-control" id="name" name="name" placeholder="player name" required>
   </div>
   <div class="mb-3">
     <label for="age" class="form-label">Player age:</label>
-    <input autocomplete = "off" type="number" class="form-control" id="age" name = "age"placeholder="age">
+    <input autocomplete = "off" type="number" class="form-control" id="age" name = "age"placeholder="age" required>
   </div>
   <div class="mb-3">
     <label for="image" class="form-label">image Link:</label>
-    <input autocomplete = "off" type="text" class="form-control" id="image" name = "image" placeholder="Insert image link here">
+    <input autocomplete = "off" type="text" class="form-control" id="image" name = "image" placeholder="Insert image link here" required>
   </div>
   <div class="mb-3">
     <label for="CurrentTeam" class="form-label">Current Team:</label>
-    <input autocomplete = "off" type="text" class="form-control" id="CurrentTeam" name = "CurrentTeam"placeholder="Current Team">
+    <input autocomplete = "off" type="text" class="form-control" id="CurrentTeam" name = "CurrentTeam"placeholder="Current Team" required>
   </div>
   <div class="mb-3">
     <label for="accolades" class="form-label">Accolades: Please separate them with commas</label>
-    <input autocomplete = "off" type="text" class="form-control" id="accolades" name = "accolades"placeholder="Accolades">
+    <input autocomplete = "off" type="text" class="form-control" id="accolades" name = "accolades"placeholder="Accolades" >
   </div>
   <div class="mb-3">
     <label for="position" class="form-label">Position:</label>
-    <input autocomplete = "off" type="text" class="form-control" id="position" name = "position"placeholder="position">
+    <input autocomplete = "off" type="text" class="form-control" id="position" name = "position"placeholder="position" required>
   </div>
   <div>
   <label for="content" class="form-label">Content: </label>
 </div>  
-  <textarea id="accolades" name = "content" ></textarea>
+  <textarea id="accolades" name = "content" required></textarea>
  <div><button type="submit" class="btn btn-primary outline-light btn-lg">SUBMIT</button></div> 
 </form>
 <%- include('../partials/footer') %> 
