@@ -16,8 +16,13 @@ var indexRouter = require("./routes/index");
 var playersRouter = require("./routes/players");
 var reviewsRouter = require("./routes/reviews");
 
+<<<<<<< HEAD
+=======
+// view engine setup
+>>>>>>> parent of 662a00c (deploying to heroku)
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
+
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -37,6 +42,7 @@ app.use(
 );
 app.use(passport.initialize());
 app.use(passport.session());
+
 app.use("/", indexRouter);
 app.use("/players", playersRouter);
 app.use("/reviews", reviewsRouter);
