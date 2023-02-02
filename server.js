@@ -16,14 +16,6 @@ var indexRouter = require("./routes/index");
 var playersRouter = require("./routes/players");
 var reviewsRouter = require("./routes/reviews");
 
-// view engine setup
-// app.use(function (req, res, next) {
-//   if (req.originalUrl && req.originalUrl.split("/").pop() === "favicon.ico") {
-//     return res.sendStatus(204);
-//   }
-
-//   next();
-// });
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 app.use(logger("dev"));
