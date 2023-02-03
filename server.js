@@ -7,8 +7,8 @@ var methodOverride = require("method-override");
 var session = require("express-session");
 var passport = require("passport");
 
-var app = express();
 require("dotenv").config();
+var app = express();
 require("./config/database");
 require("./config/passport");
 
