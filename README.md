@@ -14,11 +14,9 @@ This is a website that you can create athletes that you like and give them descr
 ![All Players Page](https://imgur.com/HBxp6pC.jpg)
 
 ## PLAYER CREATION PAGE
-
  ![Creation Page](https://imgur.com/xvgYdbK.jpg)
 
 ## Review Page
-
 ![Review Page](https://imgur.com/xdMWkRp.jpg)
   
 ## TECHNOLOGIES USED
