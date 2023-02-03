@@ -2,18 +2,18 @@
 <h1>Please the form to update the review</h1>
 
 <form
-  action="/players/<%=player.id %>/reviews/<%= review.id %>?_method=PUT"
+  action="/reviews/players/<%=player.id %>/reviews/<%= review.id %>?_method=PUT"
   method="POST"
 >
   <label for="Rating">
     Rating:
-    <select class="form-select" aria-label="Default select example" name="rating">
+    <select  required class="form-select" aria-label="Default select example" name="rating">
       <option selected>Open this select menu</option>
       <option value="1">1</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5</option>
+      <option value="5" >5</option>
     </select>
   </label>
   <div class="mb-3">
@@ -24,6 +24,7 @@
       cols="50"
       name="detail"
       placeholder="write down your review"
+      required
     ></textarea>
   </div>
   <button class="btn btn-lg btn-dark" type="submit">Submit</button>

@@ -4,9 +4,10 @@ var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 var methodOverride = require("method-override");
-var session = require("express-session");
+var session = require("cookie-session");
 var passport = require("passport");
 
+var app = express();
 require("dotenv").config();
 require("./config/database");
 require("./config/passport");
@@ -15,9 +16,8 @@ var indexRouter = require("./routes/index");
 var playersRouter = require("./routes/players");
 var reviewsRouter = require("./routes/reviews");
 
-var app = express();
-
 // view engine setup
+
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
@@ -29,6 +29,11 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(methodOverride("_method"));
 app.use(
   session({
+    cookie: {
+      secure: true,
+      maxAge: 60000,
+    },
+    store: new RedisStore(),
     secret: "SEIROCKS",
     resave: false,
     saveUninitialized: true,
@@ -39,7 +44,7 @@ app.use(passport.session());
 
 app.use("/", indexRouter);
 app.use("/players", playersRouter);
-app.use("/", reviewsRouter);
+app.use("/reviews", reviewsRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

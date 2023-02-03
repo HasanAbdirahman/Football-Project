@@ -15,6 +15,10 @@
       <li>${accolade}</li>
       ` ).join('') %>
     </ul>
+    <ul>
+
+    
+    </ul>
     <div class="flx">
       <form
         style="margin-right: 10px"
@@ -127,13 +131,13 @@
             <div class="flx">
               <form
                 style="margin-top: 14px"
-                action="/players/<%=player.id %>/reviews/<%=review.id %>?_method=DELETE"
+                action="/reviews/players/<%=player.id %>/reviews/<%=review.id %>?_method=DELETE"
                 method="POST"
               >
                 <button class="btn btn-outline-dark">Delete</button>
               </form>
               <form style="margin-left: 10px; margin-top: 14px" action="">
-                <a href="/players/<%=player.id%>/reviews/<%= review.id %>  " class="btn btn-outline-dark">Edit</a>
+                <a href="/reviews/players/<%=player.id%>/reviews/<%= review.id %>" class="btn btn-outline-dark">Edit</a>
               </form>
             </div>
           </div>

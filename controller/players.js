@@ -16,7 +16,7 @@ function create(req, res) {
   req.body.accolades = req.body.accolades.split(",");
   let newPlayer = new Player(req.body);
   newPlayer.save(function (err) {
-    if (err) return res.redirect("/players/new");
+    if (err) res.redirect("/players/new");
     return res.redirect("/players");
   });
 }
