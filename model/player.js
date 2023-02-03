@@ -31,6 +31,7 @@ const playerSchema = new Schema(
     accolades: [String],
     content: String,
     reviews: [reviewSchema],
+    googleId: String,
   },
   {
     timestamps: true,
